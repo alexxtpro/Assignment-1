@@ -1,3 +1,17 @@
+/*
+Take N (number of rows), print the following pattern (for N = 6)
+1
+1 1
+1 2 1
+1 3 3 1
+1 4 6 4 1
+1 5 10 10 5 1
+
+Constraints
+0 < N < 100
+-> Each number is separated from other by a tab.
+*/
+
 import java.util.*;
 public class Main {
 	static int binomialCoeff(int n, int k)
